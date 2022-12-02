@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Books[
+<!ELEMENT Books (book*)>
+<!ELEMENT book (Author,Title,Name,Price)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ATTLIST book id CDATA "0">
+<!ENTITY XML "Extensible Markup Language">
+<!ENTITY sad ":(">
+]>
+<Books>
+    <book>
+    <Author>Abu Yahya</Author>
+    <Title>Psychological thriller,lessons of life</Title>
+    <Name>Zindagi jab shuru hogi</Name>
+    <Price>599&sad;</Price>
+    </book>
+    <book>
+        <Author>Joe goldberg</Author>
+        <Title>Psychological thriller</Title>
+        <Name>You</Name>
+        <Price>2000</Price>
+        </book>
+            <book>
+            <Author>brandon z</Author>
+            <Title>Scientific fiction</Title>
+            <Name>Cosmos</Name>
+            <Price>1000</Price>
+            </book>
+            <book>
+            <Author>Johnathon sheers</Author>
+            <Title>fiction,drama</Title>
+            <Name>Prison break</Name>
+            <Price>1060</Price>
+            </book>
+            <book>
+            <Author>Professor</Author>
+            <Title>Suspence,drama,fiction</Title>
+            <Name>Money heist</Name>
+            <Price>500</Price>
+            </book>
+            <book>
+            <Author>Andy dufrain</Author>
+            <Title>Psychological thriller,drama</Title>
+            <Name>Shawshank redemption</Name>
+            <Price>700</Price>
+            </book>
+            <book>
+            <Author>Jessy pinkman</Author>
+            <Title>Psychological thriller,drama,suspence</Title>
+            <Name>Breaking bad</Name>
+            <Price>900</Price>
+            </book>
+            <book>
+            <Author>Henry cavil</Author>
+            <Title>Suspence,horror,drama</Title>
+            <Name>Whitcher</Name>
+            <Price>6600</Price>
+            </book>
+            <book>
+            <Author>Simbi yok</Author>
+            <Title>Suspence,drama</Title>
+            <Name>Squid game</Name>
+            <Price>430</Price>
+            </book>
+            <book>
+            <Author>Carrol shelby</Author>
+            <Title>Racing,thriller</Title>
+            <Name>Ford vs Ferrari</Name>
+            <Price>1000</Price>
+            </book>
+</Books>
